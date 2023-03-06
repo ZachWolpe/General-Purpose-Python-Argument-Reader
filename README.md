@@ -1,7 +1,7 @@
 # General Purpose Python Argument Reader
 ---
 
-An interface to instantiate an custom argument parser into any pyhton script - to transform any python script into a dynamic cli.
+An interface to instantiate a custom argument parser into any python script - to transform any python script into a dynamic cli.
 
 
 ## Example
@@ -39,10 +39,10 @@ The `<class> argument` objects require $4$ properties on initialisation:
 Thereafter the python script can be executed as a `cli`:
 
 ```
-    python file.py \
-        -a    "parse arg 1 with short name" \
-        -arg2 "parse arg 2 with long name" \
-        -arg3
+clear; python example.py \
+        --arg1 "input argument 1 using long  name" \
+        -b     "input argument 2 using short name" \
+        -c    // set arg3==True
 ```
 
 
