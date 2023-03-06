@@ -1,4 +1,4 @@
-# General Purpose Python Argument Reader
+# General Purpose Python Argument Parser
 ---
 
 An interface to instantiate a custom argument parser into any python script - to transform any python script into a dynamic cli.
