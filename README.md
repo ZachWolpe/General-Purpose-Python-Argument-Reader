@@ -47,7 +47,9 @@ clear; python example.py \
 
 
 ---
+```
 author:         zach wolpe
 email:          zach.wolpe@medibio.com.au
 date:           06.03.23
+```
 ---
